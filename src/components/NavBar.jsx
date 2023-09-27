@@ -28,9 +28,11 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 text-white bg-black fixed px-4">
       <div>
-        <h1 className="text-5xl font-signature ml-2 mb-3">Priyanshu.Negi</h1>
+        <h1 className="text-4xl sm:text-5xl font-signature ml-2 mb-3">
+          Priyanshu.Negi
+        </h1>
       </div>
-      <ul className="hidden md:flex">
+      <ul className="hidden lg:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}
@@ -44,7 +46,7 @@ const NavBar = () => {
       </ul>
       <div
         onClick={() => setNav(!Nav)}
-        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden hover:text-white"
+        className="cursor-pointer pr-4 z-10 text-gray-500 lg:hidden hover:text-white"
       >
         {Nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
