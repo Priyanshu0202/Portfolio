@@ -6,11 +6,11 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white"
+      className="w-full bg-gradient-to-b from-black via-black to-gray-800 text-white"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 lg:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 lg:flex-row pt-10 sm:pt-0">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl mt-5 pt-10 md:text-5xl font-bold md:mt-0">
+          <h2 className="text-4xl mt-20  md:text-5xl font-bold sm:mt-0">
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 text-lg max-w-lg">
@@ -38,7 +38,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my portfolio"
-            className="rounded-full mx-auto w-64 mb-20 sm:w-80 md:w-85 lg:w-90"
+            className="rounded-full mx-auto mt-10 w-64 mb-20 sm:w-80 md:w-85 lg:w-90"
           />
         </div>
       </div>
