@@ -4,35 +4,41 @@ import social from "../assets/portfolio/social.PNG";
 import weather from "../assets/portfolio/Weather.PNG";
 import spaceX from "../assets/portfolio/spaceX.PNG";
 import Chat2 from "../assets/portfolio/Chat2.PNG";
-
+import ecomern from "../assets/portfolio/ecomern.PNG";
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: ecomern,
+      href1: "https://ecomern-chi.vercel.app/",
+      href2: "https://github.com/Priyanshu0202/ecomern",
+    },
+    {
+      id: 2,
       src: Chat2,
       href1: "https://talk-a-tive-dp9w.onrender.com",
       href2: "https://github.com/Priyanshu0202/chatApp2.0",
     },
     {
-      id: 1,
+      id: 3,
       src: chat,
       href1: "",
       href2: "https://github.com/Priyanshu0202/firebase-chataApp",
     },
     {
-      id: 2,
+      id: 4,
       src: social,
       href1: "https://socialmedia-app-xi.vercel.app/",
       href2: "https://github.com/Priyanshu0202/Socialmedia-App",
     },
     {
-      id: 3,
+      id: 5,
       src: weather,
       href1: "https://weather-forecast-b8d1d8.netlify.app/",
       href2: "https://github.com/Priyanshu0202/WeatherApp",
     },
     {
-      id: 4,
+      id: 6,
       src: spaceX,
       href1: "https://spacex-clone-6e1798.netlify.app",
       href2: "https://github.com/Priyanshu0202/SpaceX-clone",
